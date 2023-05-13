@@ -1,6 +1,12 @@
 class Calculator:
 
-    def to_the_power_of(self, a, b):
+    def to_the_power_of(self, a: int, b: int) -> int:
+        """
+        Umocnuje
+        :param int a: Base
+        :param int b: Exp
+        :return: a^b
+        """
         return a ** b
 
     def add(self, a, b):
